@@ -35,3 +35,10 @@ n4=str(input("Quarto aluno: "))
 lista=[n1, n2, n3, n4]
 escolhido=random.choice(lista)
 print("O aluno escolhido foi {}".format(escolhido))
+
+#Exercício Python #020 - Sorteando uma ordem na lista
+print("\nExercício Python #020 - Sorteando uma ordem na lista")
+lista=[n1, n2, n3, n4]
+random.shuffle(lista)
+print("A ordem de apresentação será ")
+print(lista)
